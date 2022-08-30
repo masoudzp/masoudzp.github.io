@@ -1,4 +1,4 @@
-@def title = "Franklin Example"
+@def title = "Masoud Zarepisheh"
 @def tags = ["syntax", "code"]
 
 # How to use Franklin
@@ -122,7 +122,7 @@ It's probably easier to see this in action:
 \newcommand{\pathwithout}[1]{`/usr/local/bin/!#1`}
 
 * with: \pathwith{script.jl}, there's a whitespace you don't want 🚫
-* without: \pathwithout{script.jl} here there isn't ✅
+* without: \pathwithout{script.jl} here there isn't ✅  
 
 ### Raw HTML
 

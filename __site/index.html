@@ -11,19 +11,19 @@
 <link rel="stylesheet" href="/css/jemdoc.css">
 <link rel="icon" href="/assets/favicon.png">
 
-   <title>Franklin Example</title>  
+   <title>Masoud Zarepisheh</title>  
 </head>
 <body>
 <main class="outside">
   <div class="box">
     <aside class="layout-menu">
-      <div class="menu-category">jemdoc</div>
+      <div class="menu-category">Masoud Zarepisheh</div>
       <div class="menu-item current"><a href="/">Home</a></div>
-    <div class="menu-category">topics</div>
-      <div class="menu-item "><a href="/menu1/">Code blocks</a></div>
-      <div class="menu-item "><a href="/menu2/">More goodies</a></div>
-      <div class="menu-item "><a href="/menu3/">Tags</a></div>
-    </aside>
+    <!--<div class="menu-category">topics</div> -->
+      <div class="menu-item "><a href="/research/">Research</a></div>
+      <div class="menu-item "><a href="/people/">People</a></div>
+      <div class="menu-item "><a href="/cv/">CV</a></div>
+     </aside> 
     <div class="layout-content">
 
 
@@ -114,7 +114,7 @@ end</code></pre>
 <ul>
 <li><p>with: <code>/usr/local/bin/ script.jl</code>, there&#39;s a whitespace you don&#39;t want 🚫</p>
 </li>
-<li><p>without: <code>/usr/local/bin/script.jl</code> here there isn&#39;t ✅</p>
+<li><p>without: <code>/usr/local/bin/script.jl</code> here there isn&#39;t ✅  </p>
 </li>
 </ul>
 <h3 id="raw_html"><a href="#raw_html" class="header-anchor">Raw HTML</a></h3>
@@ -162,8 +162,10 @@ end</code></pre>
 <p>&#40;cf. <code>src/_html_parts/page_foot.html</code>&#41; which will then replace these braces with the content of a dictionary of variables at the key <code>fd_mtime</code>. This dictionary of variables is accessed locally by pages through <code>@def varname &#61; value</code> and globally through the <code>config.md</code> page via the same syntax.</p>
 <p>There&#39;s a few other such functions of the form <code>&#123;&#123;fname p₁ p₂&#125;&#125;</code> as well as support for conditional blocks. If you wander through the <code>src/_html_parts/</code> folder and its content, you should be able to see those in action.</p>
 <div class="page-foot">
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Septimia Zenobia. Last modified: August 29, 2022.
+  <!---
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> {{ fill author }}. {{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+  -->
 </div>
 </div><!-- CONTENT ENDS HERE -->
         </div>
