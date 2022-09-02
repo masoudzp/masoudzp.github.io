@@ -20,12 +20,12 @@
 @media (min-width: 750px) {
   .box {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    justify-content: left;
+    margin: left;
   }
 
   .layout-menu {
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-left: 1rem;
   }
 }
@@ -55,7 +55,7 @@ body {
 }
 
 #layout-menu td {
-  background: #f4f4f4;
+  background: #e01212;
   vertical-align: top;
 }
 
@@ -169,7 +169,7 @@ h3 {
 
 h1 {
   font-size: 165%;
-  padding-top: 2em;
+  padding-top: 0em;
 }
 
 h2 {
