@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/jemdoc.css">
 <link rel="icon" href="/assets/favicon.png">
 
-   <title></title>  
+   <title>Research</title>  
 </head>
 <body>
 <main class="outside">
@@ -21,12 +21,32 @@
       <div class="menu-item "><a href="/research/">Research</a></div>
       <div class="menu-item "><a href="/people/">People</a></div>
       <div class="menu-item "><a href="/publication/">Publications</a></div>
-      <div class="menu-item "><a href="/bio/">Bio</a></div>
+      <!-- <div class="menu-item {{ispage menu3/*}}current{{end}}"><a href="/bio/">Bio</a></div> -->
      </aside> 
     <div class="layout-content">
 
 <!-- Content appended here -->
-<div class="franklin-content"><!--
+<div class="franklin-content"><h1 id="research"><a href="#research" class="header-anchor">Research</a></h1>
+<h3 id="what_is_radiotherapy_why_optimization"><a href="#what_is_radiotherapy_why_optimization" class="header-anchor">What is Radiotherapy? Why  Optimization?</a></h3>
+<div class="row"><div class="container"><div class="left"><img src="/assets/Linac_MSK.jpg" alt="" /></div></div>
+<p>Radiotherapy is the use of radiation beams, precisely directed to diseased cells, to fight cancer. The main objective of radiotherapy is to deliver radiation to the tumor to kill cancerous cells without harming the surrounding healthy tissue. Each cancer patient’s tumor is unique in terms of its shape, location, and the surrounding healthy tissue. The machine settings, including the beam angles and beam shapes, must be customized based on the patient’s image data and the physician’s dose prescription for both the tumor and nearby healthy tissues. This gives rise to large-scale, and often non-convex, optimization problems. 
+<div style="clear: both"></div>
+</p></div>
+<h3 id="open-source_python_package_portpy"><a href="#open-source_python_package_portpy" class="header-anchor">Open-Source Python  Package  &#40;PortPy&#41;</a></h3>
+<div class="row"><div class="container"><div class="left"><img src="/assets/Python.jpg" alt="" /></div></div>
+<p><a href="https://github.com/PortPy-Consortium">PortPy</a> is a codebase open-source package providing research-ready <em>data</em> and <em>code</em> to facilitate the development and clinical translation of radiotherapy treatment planning algorithms. PortPy includes benchmark data &#40;pre-calculated data from an FDA-approved commercial treatment planning system  <a href="https://www.varian.com/products/radiotherapy/treatment-planning/eclipse">Eclipse</a>&#41; and benchmark code &#40;algorithms for optimizing beamlets, beam angles, apertures, and robust optimization&#41;.<br />PortPy is integrated with an open-source optimization package <a href="https://www.cvxpy.org/">CVXPy</a> which is a high-level programming language for optimization and provides out-of-the-box access to many commercial/open-source optimization engines &#40;e.g., IPOPT, CPLEX, Mosek, Gorubi&#41;. 
+<div style="clear: both"></div>
+</p></div>
+<h3 id="automated_treatment_planning"><a href="#automated_treatment_planning" class="header-anchor">Automated Treatment Planning </a></h3>
+<div class="row"><div class="container"><div class="left"><img src="/assets/ECHO-4.jpg" alt="" /></div></div>
+<p>The machine settings must be customized for each cancer patient and this requires extensive iterative manual tuning of the parameters to generate an acceptable plan. Consequently, the quality of plans can vary extensively among planners because the process is heavily dependent on the skill and experience. This project, referred to as ECHO &#40;Expedited Constrained Hierarchical Optimization&#41;, aims at automating this process using advanced mathematical optimization tools.  </p>
+<p>ECHO is clinically deployed and seamlessly integrated into an FDA-approved commertial treatment planning system <a href="&#40;https://www.varian.com/products/radiotherapy/treatment-planning/eclipse&#41;">Eclipse</a> and being used in our daily clinical routine. As shown in the  figure, ECHO has been used to treat more than 6,000 patients to date &#40;Sep, 2022&#41;. The following table summarizes some of the technical chanllenges and the optimization tools we have employed to tackle them. 
+<div style="clear: both"></div>
+</p></div>
+<h3 id="distributed_optimization_for_fast_treatment_planning"><a href="#distributed_optimization_for_fast_treatment_planning" class="header-anchor">Distributed Optimization for Fast Treatment Planning</a></h3>
+<h3 id="leveraging_the_power_of_artifical_inteligence"><a href="#leveraging_the_power_of_artifical_inteligence" class="header-anchor">Leveraging the Power of Artifical Inteligence</a></h3>
+<h3 id="fully_exploiting_the_power_of_emerging_hardeware"><a href="#fully_exploiting_the_power_of_emerging_hardeware" class="header-anchor">Fully Exploiting the Power of Emerging Hardeware </a></h3>
+<!--
 <div class="page-foot">
     {{ fill author }}. {{isnotpage /tag/*}}
     Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.

@@ -4,9 +4,9 @@
 
 :root {
   --block-background: hsl(0, 0%, 94%);
-  --output-background: hsl(0, 0%, 98%);
-  --small: 14px;
-  --normal: 19px;
+  --output-background: hsl(0, 78%, 52%);
+  --small: 1px;
+  --normal: 16px;
   --text-color: hsv(0, 0%, 20%);
 }
 
