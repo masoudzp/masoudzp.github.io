@@ -3,25 +3,13 @@
 
 <url>
     <loc>https://https://masoudzp.github.io//index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://https://masoudzp.github.io//menu1\index.html</loc>
     <lastmod>2022-08-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://https://masoudzp.github.io//publication\index.html</loc>
-    <lastmod>2022-09-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://https://masoudzp.github.io//home\index.html</loc>
-    <lastmod>2022-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
@@ -51,13 +39,19 @@
 </url>
 <url>
     <loc>https://https://masoudzp.github.io//people\index.html</loc>
-    <lastmod>2022-09-06</lastmod>
+    <lastmod>2022-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://https://masoudzp.github.io//CV\index.html</loc>
+    <lastmod>2022-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://https://masoudzp.github.io//research\index.html</loc>
-    <lastmod>2022-09-09</lastmod>
+    <lastmod>2022-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

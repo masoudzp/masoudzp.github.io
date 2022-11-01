@@ -4,9 +4,9 @@
 
 :root {
   --block-background: hsl(0, 0%, 94%);
-  --output-background: hsl(0, 78%, 52%);
-  --small: 1px;
-  --normal: 16px;
+  --output-background: hsl(0, 0%, 98%);
+  --small: 14px;
+  --normal: 18px;
   --text-color: hsv(0, 0%, 20%);
 }
 
@@ -203,7 +203,7 @@ td {
 .franklin-content .bibref a { color: green; }
 
 .franklin-content sup {
-  font-size: 70%;
+  font-size: 90%;
   vertical-align: super;
   line-height: 0;
 }
