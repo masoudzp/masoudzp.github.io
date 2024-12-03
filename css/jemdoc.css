@@ -486,3 +486,71 @@ div#footer-text {
 table {
   margin-bottom: 1em;
 }
+
+/* added for table */
+/* Enhanced Table Styles */
+.enhanced-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* Override if needed */
+    min-width: 600px; /* Prevents the table from becoming too narrow */
+    margin: 20px 0; /* Adds vertical spacing */
+}
+
+.enhanced-table caption {
+    caption-side: top;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.enhanced-table th {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 12px;
+    text-align: left;
+    position: sticky; /* Keeps headers visible on vertical scroll */
+    top: 0;
+    z-index: 2;
+    border: 1px solid #333; /* Overrides existing border if necessary */
+}
+
+.enhanced-table td {
+    border: 1px solid #333; /* Consistent border */
+    padding: 12px;
+    text-align: left;
+}
+
+.enhanced-table th:first-child,
+.enhanced-table td:first-child {
+    background-color: #f2f2f2; /* Light gray for first column */
+    font-weight: bold;
+    position: sticky; /* Keeps first column visible on horizontal scroll */
+    left: 0;
+    z-index: 1;
+}
+
+.enhanced-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+.enhanced-table tbody tr:hover {
+    background-color: #ddd; /* Hover effect */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .enhanced-table th,
+    .enhanced-table td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+    .enhanced-table caption {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
