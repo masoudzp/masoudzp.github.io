@@ -488,12 +488,12 @@ table {
 }
 
 /* added for table */
+/*                                  Enhanced Table Styles                             */
 /* Enhanced Table Styles */
 .enhanced-table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif; /* Override if needed */
-    min-width: 600px; /* Prevents the table from becoming too narrow */
     margin: 20px 0; /* Adds vertical spacing */
 }
 
@@ -506,14 +506,11 @@ table {
 }
 
 .enhanced-table th {
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50; /* Green background for headers */
     color: white;
     padding: 12px;
     text-align: left;
-    position: sticky; /* Keeps headers visible on vertical scroll */
-    top: 0;
-    z-index: 2;
-    border: 1px solid #333; /* Overrides existing border if necessary */
+    border: 1px solid #333; /* Consistent border */
 }
 
 .enhanced-table td {
@@ -524,11 +521,8 @@ table {
 
 .enhanced-table th:first-child,
 .enhanced-table td:first-child {
-    background-color: #f2f2f2; /* Light gray for first column */
+    background-color: #f2f2f2; /* Light gray background for first column */
     font-weight: bold;
-    position: sticky; /* Keeps first column visible on horizontal scroll */
-    left: 0;
-    z-index: 1;
 }
 
 .enhanced-table tbody tr:nth-child(even) {
@@ -550,7 +544,3 @@ table {
         font-size: 1.5em;
     }
 }
-
-
-
-
