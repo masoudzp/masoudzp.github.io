@@ -489,12 +489,14 @@ table {
 
 /* added for table */
 /*                                  Enhanced Table Styles                             */
+/* Existing CSS content... */
+
 /* Enhanced Table Styles */
 .enhanced-table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif; /* Override if needed */
-    margin: 20px 0; /* Adds vertical spacing */
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
 }
 
 .enhanced-table caption {
@@ -505,7 +507,7 @@ table {
     text-align: left;
 }
 
-.enhanced-table th {
+.enhanced-table thead th {
     background-color: #4CAF50; /* Green background for headers */
     color: white;
     padding: 12px;
@@ -513,14 +515,13 @@ table {
     border: 1px solid #333; /* Consistent border */
 }
 
-.enhanced-table td {
+.enhanced-table tbody td {
     border: 1px solid #333; /* Consistent border */
     padding: 12px;
     text-align: left;
 }
 
-.enhanced-table th:first-child,
-.enhanced-table td:first-child {
+.enhanced-table tbody td:first-child {
     background-color: #f2f2f2; /* Light gray background for first column */
     font-weight: bold;
 }
