@@ -489,8 +489,6 @@ table {
 
 /* added for table */
 /*                                  Enhanced Table Styles                             */
-/* Existing CSS content... */
-
 /* Enhanced Table Styles */
 .table-container .enhanced-table {
     width: 100%;
@@ -521,7 +519,7 @@ table {
     text-align: left;
 }
 
-.table-container .enhanced-table tbody td:first-child {
+.table-container .enhanced-table tbody td.first-col {
     background-color: #f2f2f2; /* Light gray background for first column */
     font-weight: bold;
 }
@@ -544,4 +542,11 @@ table {
     .table-container .enhanced-table caption {
         font-size: 1.5em;
     }
+}
+
+/* Table Container Styling */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin: 20px 0;
 }
