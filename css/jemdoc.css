@@ -492,14 +492,14 @@ table {
 /* Existing CSS content... */
 
 /* Enhanced Table Styles */
-.enhanced-table {
+.table-container .enhanced-table {
     width: 100%;
     border-collapse: collapse;
-    font-family: Arial, sans-serif;
-    margin: 20px 0;
+    font-family: Arial, sans-serif; /* Override if needed */
+    margin: 20px 0; /* Adds vertical spacing */
 }
 
-.enhanced-table caption {
+.table-container .enhanced-table caption {
     caption-side: top;
     font-size: 1.8em;
     margin-bottom: 10px;
@@ -507,41 +507,41 @@ table {
     text-align: left;
 }
 
-.enhanced-table thead th {
-    background-color: #4CAF50; /* Green background for headers */
-    color: white;
+.table-container .enhanced-table thead th {
+    background-color: #4CAF50 !important; /* Green background for headers */
+    color: white !important;
     padding: 12px;
     text-align: left;
-    border: 1px solid #333; /* Consistent border */
+    border: 1px solid #333;
 }
 
-.enhanced-table tbody td {
+.table-container .enhanced-table tbody td {
     border: 1px solid #333; /* Consistent border */
     padding: 12px;
     text-align: left;
 }
 
-.enhanced-table tbody td:first-child {
+.table-container .enhanced-table tbody td:first-child {
     background-color: #f2f2f2; /* Light gray background for first column */
     font-weight: bold;
 }
 
-.enhanced-table tbody tr:nth-child(even) {
+.table-container .enhanced-table tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* Zebra striping for even rows */
 }
 
-.enhanced-table tbody tr:hover {
+.table-container .enhanced-table tbody tr:hover {
     background-color: #ddd; /* Hover effect */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .enhanced-table th,
-    .enhanced-table td {
+    .table-container .enhanced-table th,
+    .table-container .enhanced-table td {
         padding: 8px;
         font-size: 0.9em;
     }
-    .enhanced-table caption {
+    .table-container .enhanced-table caption {
         font-size: 1.5em;
     }
 }
