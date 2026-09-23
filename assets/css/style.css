@@ -1,0 +1,241 @@
+/* masoudzp.github.io — single stylesheet */
+
+:root {
+  --ink: #222;
+  --muted: #666;
+  --faint: #999;
+  --rule: #d9d9d9;
+  --accent: #203060;
+  --link: #2a4b8d;
+  --tag-bg: #eef1f6;
+  --serif: Georgia, "Times New Roman", Times, serif;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 17px; }
+
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--serif);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- Layout: sidebar + content ---------- */
+
+.site {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  gap: 3rem;
+}
+
+.sidebar {
+  flex: 0 0 11rem;
+  position: sticky;
+  top: 2.5rem;
+}
+
+.sidebar-name {
+  font-weight: bold;
+  color: var(--accent);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 0.15rem 0;
+  color: var(--link);
+}
+
+.sidebar-nav a.current {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.content {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 720px;
+}
+
+/* ---------- Typography ---------- */
+
+h1, h2, h3 {
+  color: var(--accent);
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+h1 { font-size: 1.7rem; margin: 0 0 0.6rem; }
+
+h2 {
+  font-size: 1.3rem;
+  margin: 2.4rem 0 0.9rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 1.08rem;
+  margin: 1.6rem 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+p { margin: 0 0 1rem; }
+
+ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+li { margin-bottom: 0.45rem; }
+
+.muted { color: var(--muted); }
+
+/* ---------- Home: profile header ---------- */
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: auto;
+  flex: 0 0 150px;
+  border-radius: 8px;
+}
+
+.profile-text p { margin-bottom: 0.5rem; }
+
+.profile-links a { white-space: nowrap; }
+.profile-links span { color: var(--faint); padding: 0 0.35rem; }
+
+.lede { font-size: 1.05rem; }
+
+/* ---------- Home: research section ---------- */
+
+.banner {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border-radius: 8px;
+  margin: 0 0 1.1rem;
+  display: block;
+}
+
+.inline-logo {
+  height: 34px;
+  width: auto;
+  border-radius: 4px;
+  flex: 0 0 auto;
+}
+
+/* ---------- Publications ---------- */
+
+.jump {
+  color: var(--muted);
+  margin: -0.2rem 0 1.4rem;
+}
+.jump a { margin-right: 0.3rem; }
+.jump span { color: var(--faint); margin-right: 0.3rem; }
+
+ul.pubs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.pub {
+  margin: 0 0 0.9rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--rule);
+}
+
+.pub-title { font-weight: bold; }
+
+.pub-tag {
+  display: block;
+  width: fit-content;
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: var(--tag-bg);
+  border-radius: 3px;
+  padding: 0.05rem 0.45rem;
+  margin: 0.2rem 0 0.1rem;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+.pub-authors b { color: var(--ink); font-weight: bold; }
+
+.pub-venue { font-size: 0.9rem; }
+
+/* CV */
+
+.cv-year {
+  font-size: 1.02rem;
+  margin-top: 1.5rem;
+  color: var(--accent);
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 720px) {
+  html { font-size: 16px; }
+
+  .site {
+    display: block;
+    padding: 1.25rem 1rem 3rem;
+  }
+
+  .sidebar {
+    position: static;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sidebar-name {
+    border: 0;
+    padding: 0;
+    margin: 0 0.5rem 0 0;
+  }
+
+  .sidebar-nav { display: flex; gap: 1rem; }
+
+  .profile { gap: 1rem; }
+  .profile-photo { width: 110px; flex-basis: 110px; }
+  h1 { font-size: 1.45rem; }
+
+  .banner { height: 180px; }
+  .pub-tag { white-space: normal; }
+}
+
+@media print {
+  .sidebar { display: none; }
+  .site { display: block; padding: 0; }
+}

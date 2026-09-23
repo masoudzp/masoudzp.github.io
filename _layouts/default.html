@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="site">
+    <aside class="sidebar">
+      <div class="sidebar-name">{{ site.title }}</div>
+      <nav class="sidebar-nav">
+        {% for item in site.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="current"{% endif %}>{{ item.title }}</a>{% endfor %}
+      </nav>
+    </aside>
+    <main class="content">
+{{ content }}
+    </main>
+  </div>
+</body>
+</html>

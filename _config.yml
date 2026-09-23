@@ -1,0 +1,34 @@
+title: Masoud Zarepisheh
+tagline: Optimization for radiotherapy treatment planning
+description: Masoud Zarepisheh, Associate Professor/Attending in the Department of Medical Physics at Memorial Sloan Kettering Cancer Center. Mathematical optimization for radiotherapy treatment planning, the ECHO automated planning system, and the open-source PortPy project.
+url: https://masoudzp.github.io
+author:
+  name: Masoud Zarepisheh
+lang: en
+
+# Site navigation (order matters)
+nav:
+  - title: Home
+    url: /
+  - title: CV
+    url: /CV/
+  - title: People
+    url: /people/
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

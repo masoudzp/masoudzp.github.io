@@ -1,0 +1,6 @@
+<li class="pub">
+  <a class="pub-title" href="{{ include.pub.url }}">{{ include.pub.title }}</a>
+  {% if include.show_tag and include.pub.tag %}<span class="pub-tag">{{ include.pub.tag }}</span>{% endif %}
+  <div class="pub-authors">{{ include.pub.authors | replace: "Masoud Zarepisheh", "<b>Masoud Zarepisheh</b>" | replace: "M Zarepisheh", "<b>M Zarepisheh</b>" }}</div>
+  <div class="pub-venue"><em>{{ include.pub.venue }}</em>, {{ include.pub.year }}{% if include.pub.links %}<span class="pub-links">{% for l in include.pub.links %} · <a href="{{ l[1] | relative_url }}">{{ l[0] }}</a>{% endfor %}</span>{% endif %}</div>
+</li>
