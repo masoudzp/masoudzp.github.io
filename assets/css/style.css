@@ -186,7 +186,7 @@ ul.pubs {
   color: var(--muted);
   margin-top: 0.15rem;
 }
-.pub-authors b { color: var(--ink); font-weight: bold; }
+
 
 .pub-venue { font-size: 0.9rem; }
 

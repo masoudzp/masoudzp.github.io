@@ -7,10 +7,14 @@
   year: 2026
   url: https://arxiv.org/abs/2609.05695
   links:
-    arXiv: https://arxiv.org/abs/2609.05695
     Code: https://github.com/Radiotherapy-Optimization/SLME-matrix-embedding
   selected: true
   tag: Sparse + low-rank embedding · curse of dimensionality
+- title: Clinical implementation of automated IMRT/VMAT planning for lung cancer radiation therapy using the expedited constrained hierarchical optimization (ECHO) system
+  authors: Jeho Jeong, Qijie Huang, Ying Zhou, Ellen Yorke, Eric Lin, Gourav Jhanwar, Jie Yang, Hai Pham, Maria Thor, Abraham J. Wu, Laura Cerviño, Jean M. Moran, Joseph O. Deasy, Masoud Zarepisheh, Linda Hong
+  venue: Radiotherapy and Oncology
+  year: 2026
+  url: https://www.sciencedirect.com/science/article/pii/S0167814026005517
 - title: Treatment Planning for Spine SBRT
   authors: Masoud Zarepisheh, Lei Zhang, Linda Hong
   venue: Multidisciplinary Spine Tumor Management (Springer), book chapter
@@ -42,7 +46,6 @@
   year: 2025
   url: https://arxiv.org/abs/2501.11803
   links:
-    arXiv: https://arxiv.org/abs/2501.11803
     Code: https://github.com/RiqiangGao/GDP-HMM_AAPMChallenge
 - title: Randomized Sparse Matrix Compression for Large-Scale Constrained Optimization in Cancer Radiotherapy
   authors: Shima Adeli, Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
