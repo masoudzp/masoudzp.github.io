@@ -1,0 +1,316 @@
+# Publications, newest first. Each entry:
+#   title, authors, venue, year, url (main link), links (optional: arXiv/Code/Slides/Video/...),
+#   selected: true  + tag: "..."  -> also shown under "Selected publications" on the home page.
+- title: Sparse plus low-rank matrix embedding with applications in cancer radiotherapy optimization
+  authors: Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
+  venue: arXiv preprint
+  year: 2026
+  url: https://arxiv.org/abs/2609.05695
+  links:
+    arXiv: https://arxiv.org/abs/2609.05695
+    Code: https://github.com/Radiotherapy-Optimization/SLME-matrix-embedding
+  selected: true
+  tag: Sparse + low-rank embedding · curse of dimensionality
+- title: Treatment Planning for Spine SBRT
+  authors: Masoud Zarepisheh, Lei Zhang, Linda Hong
+  venue: Multidisciplinary Spine Tumor Management (Springer), book chapter
+  year: 2026
+  url: https://link.springer.com/chapter/10.1007/978-3-032-07519-2_10
+- title: 'Resource sharing and open-source software in radiation oncology: From challenges to opportunities for community-wide benefit'
+  authors: Samuel Ingram et al.
+  venue: Radiotherapy and Oncology
+  year: 2026
+  url: https://www.sciencedirect.com/science/article/pii/S0167814026004263
+- title: 'Compressed radiotherapy treatment planning (CompressRTP): A new paradigm for rapid and high-quality treatment planning optimization'
+  authors: Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2025
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.17736
+  links:
+    arXiv: https://arxiv.org/abs/2410.00756
+    Code: https://github.com/PortPy-Project/CompressRTP
+  selected: true
+  tag: Matrix compression · curse of dimensionality
+- title: Prospective validation of a pretreatment 18F-FDG PET/CT and mean lung dose model for early radiation pneumonitis
+  authors: Maria Thor, Aditya Apte, Milan Grkovski, Charles B. Simone, Daphna Y. Gelblum, Masoud Zarepisheh, Puneeth Iyengar, Abraham J. Wu, Jacob Y. Shin, Tafadzwa Chaunzwa, Jennifer Ma, David Billing, Mark Dunphy, Jamie E. Chaft, Daniel R. Gomez, Joseph O. Deasy, Narek Shaverdian
+  venue: Physics and Imaging in Radiation Oncology
+  year: 2025
+  url: https://www.sciencedirect.com/science/article/pii/S2405631625001496
+- title: 'Automating RT Planning at Scale: High Quality Data For AI Training'
+  authors: Riqiang Gao, Mamadou Diallo, Han Liu, Anthony Magliari, Jonathan Sackett, Wilko Verbakel, Sandra Meyers, Rafe Mcbeth, Masoud Zarepisheh, Simon Arberet, Martin Kraus, Florin C. Ghesu, Ali Kamen
+  venue: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.11803
+  links:
+    arXiv: https://arxiv.org/abs/2501.11803
+    Code: https://github.com/RiqiangGao/GDP-HMM_AAPMChallenge
+- title: Randomized Sparse Matrix Compression for Large-Scale Constrained Optimization in Cancer Radiotherapy
+  authors: Shima Adeli, Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
+  venue: NeurIPS
+  year: 2024
+  url: https://neurips.cc/virtual/2024/poster/95748
+  links:
+    PDF: https://github.com/PortPy-Project/CompressRTP/blob/main/images/RMR_NeurIPS_Paper.pdf
+    Code: https://github.com/PortPy-Project/CompressRTP
+  selected: true
+  tag: Randomized sketching · large-scale constrained optimization
+- title: Simultaneous reduction of number of spots and energy layers in intensity modulated proton therapy for rapid spot scanning delivery
+  authors: Anqi Fu, Vicki T. Taasti, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2024
+  url: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.17070
+  links:
+    arXiv: https://arxiv.org/abs/2304.11287
+- title: Automated planning of stereotactic spine re-irradiation using cumulative dose limits
+  authors: Sebastian Meyer, Lei Zhang, Yilin Liu, Li Cheng Kuo, Yu-Chi Hu, Yoshiya Yamada, Masoud Zarepisheh, Pengpeng Zhang, Laura Cerviño
+  venue: Physics and Imaging in Radiation Oncology
+  year: 2024
+  url: https://www.sciencedirect.com/science/article/pii/S2405631624000174
+- title: 'Automated VMAT treatment planning using sequential convex programming: algorithm development and clinical implementation'
+  authors: Pınar Dursun, Linda Hong, Gourav Jhanwar, Qijie Huang, Ying Zhou, Jie Yang, Hai Pham, Laura Cerviño, Jean M Moran, Joseph O Deasy, Masoud Zarepisheh
+  venue: Physics in Medicine & Biology
+  year: 2023
+  url: https://iopscience.iop.org/article/10.1088/1361-6560/ace09e/meta
+  links:
+    Code: https://github.com/PortPy-Project/ECHO-VMAT
+  selected: true
+  tag: Sequential convex programming · VMAT · in clinical use
+- title: Built-in wavelet-induced smoothness to reduce plan complexity in intensity modulated radiation therapy (IMRT)
+  authors: Mojtaba Tefagh, Masoud Zarepisheh
+  venue: Physics in Medicine & Biology
+  year: 2023
+  url: https://iopscience.iop.org/article/10.1088/1361-6560/acbefe/meta
+  links:
+    Code: https://github.com/PortPy-Project/LowDimRT
+- title: 'RMSim: controlled respiratory motion simulation on static patient scans'
+  authors: Donghoon Lee, Ellen Yorke, Masoud Zarepisheh, Saad Nadeem, Yu-Chi Hu
+  venue: Physics in Medicine & Biology
+  year: 2023
+  url: https://iopscience.iop.org/article/10.1088/1361-6560/acb484
+  links:
+    arXiv: https://arxiv.org/abs/2301.11422
+    Code: https://github.com/nadeemlab/SeqX2Y
+- title: Distributed and scalable optimization for robust proton treatment planning
+  authors: Anqi Fu, Vicki T. Taasti, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2022
+  url: https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.15897
+  links:
+    Slides: /assets/ADMM_Robust-AAPM_Anqi.pdf
+  selected: true
+  tag: ADMM · robust proton planning
+- title: Domain knowledge driven 3D dose prediction using moment-based loss function
+  authors: G Jhanwar, N Dahiya, P Ghahremani, Masoud Zarepisheh, S Nadeem
+  venue: Physics in Medicine & Biology
+  year: 2022
+  url: https://iopscience.iop.org/article/10.1088/1361-6560/ac8d45
+  links:
+    arXiv: https://arxiv.org/abs/2207.03414
+    Code: https://github.com/nadeemlab/DoseRTX
+    Slides: /assets/DosePrediction_AAPM2022_Gourav.pdf
+  selected: true
+  tag: Deep learning dose prediction · moment-based loss
+- title: Automated and Clinically Optimal Treatment Planning for Cancer Radiotherapy
+  authors: Masoud Zarepisheh, Linda Hong, Ying Zhou, Qijie Huang, Jie Yang, Gourav Jhanwar, Hai D. Pham, Pınar Dursun, Pengpeng Zhang, Margie A. Hunt, Gig S. Mageras, Jonathan T. Yang, Yoshiya Yamada, Joseph O. Deasy
+  venue: INFORMS Journal on Applied Analytics
+  year: 2022
+  url: https://pubsonline.informs.org/doi/abs/10.1287/inte.2021.1095
+  links:
+    Video: https://www.youtube.com/watch?v=895M6j5KjPs&t=1025s
+    Slides: /assets/Edelman-ECHO-Slides.pdf
+    Podcast: https://pubsonline.informs.org/do/10.1287/orms.2021.02.24p
+    Press: https://www.informs.org/About-INFORMS/News-Room/Press-Releases/Finalists-Selected-for-the-World-s-Leading-Operations-Research-and-Analytics-Award-2021-INFORMS-Franz-Edelman-Competition-Elevates-Research-that-is-Saving-Lives-Saving-Money-and-Solving-Problems
+  selected: true
+  tag: ECHO · Franz Edelman Award finalist · in clinical use
+- title: Solving the volumetric modulated arc therapy (VMAT) problem using a sequential convex programming method
+  authors: Pınar Dursun, Masoud Zarepisheh, Gourav Jhanwar, Joseph O Deasy
+  venue: Physics in Medicine & Biology
+  year: 2021
+  url: https://iopscience.iop.org/article/10.1088/1361-6560/abee58
+- title: Methods and systems for automatic radiotherapy treatment planning
+  authors: Masoud Zarepisheh, JO Deasy, L Hong, GS Mageras, JG Mechalakos
+  venue: US Patent App. 16/978,397
+  year: 2021
+  url: https://patentimages.storage.googleapis.com/fb/29/e6/e6fa07636bfe4c/US20210252310A1.pdf
+- title: Deep learning auto-segmentation and automated treatment planning for trismus risk reduction in head and neck cancer radiotherapy
+  authors: Maria Thor, Aditi Iyer, Jue Jiang, Aditya Apte, Harini Veeraraghavan, Natasha B Allgood, Jennifer A Kouri, Ying Zhou, Eve LoCastro, Sharif Elguindi, Linda Hong, Margie Hunt, Laura Cerviño, Michalis Aristophanous, Masoud Zarepisheh, Joseph O Deasy
+  venue: Physics and Imaging in Radiation Oncology
+  year: 2021
+  url: https://www.sciencedirect.com/science/article/pii/S2405631621000440
+- title: Automating Proton Treatment Planning with Beam Angle Selection Using Bayesian Optimization
+  authors: Vicki T. Taasti, Linda Hong, Jin Sup (Andy) Shim, Joseph O. Deasy, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2020
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14215
+  links:
+    Slides: /assets/Proton_Bayesian_AAPM2019_Vicki.pdf
+  selected: true
+  tag: Bayesian optimization · beam angle selection
+- title: Automated Proton Treatment Planning with Robust Optimization Using Constrained Hierarchical Optimization
+  authors: Vicki T. Taasti, Linda Hong, Joseph O. Deasy, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2020
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14148
+  links:
+    Slides: /assets/Robust_Proton_AAPM2020_Vicki.pdf
+  selected: true
+  tag: Robust optimization · setup and range uncertainty
+- title: Integrating Soft and Hard Dose-Volume Constraints into Hierarchical Constrained IMRT Optimization
+  authors: Sovanlal Mukherjee, Linda Hong, Joseph O. Deasy, Masoud Zarepisheh
+  venue: Medical Physics
+  year: 2020
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13908
+  links:
+    Slides: /assets/Sovan_DVH_AAPM2019.pdf
+  selected: true
+  tag: Dose-volume constraints · mixed-integer programming · in clinical use
+- title: Clinical Experience of Automated SBRT Paraspinal and Other Metastatic Tumor Planning With Constrained Hierarchical Optimization
+  authors: Linda Hong, Ying Zhou, Jie Yang, James G. Mechalakos, Margie A. Hunt, Gig S. Mageras, Jonathan Yang, Josh Yamada, Joseph O. Deasy, Masoud Zarepisheh
+  venue: Advances in Radiation Oncology
+  year: 2020
+  url: https://www.sciencedirect.com/science/article/pii/S2452109419301691
+- title: 'Automated Intensity Modulated Treatment Planning: The Expedited Constrained Hierarchical Optimization (ECHO) System'
+  authors: Masoud Zarepisheh, Linda Hong, Ying Zhou, Jung Hun Oh, James G. Mechalakos, Margie A. Hunt, Gig S. Mageras, Joseph O. Deasy
+  venue: Medical Physics
+  year: 2019
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13572
+  selected: true
+  tag: ECHO · hierarchical constrained optimization · in clinical use
+- title: Inverse optimization for multi-objective linear programming
+  authors: Mostafa Naghavi, Ali Asghar Foroughi, Masoud Zarepisheh
+  venue: Optimization Letters
+  year: 2019
+  url: https://link.springer.com/article/10.1007/s11590-019-01394-0
+  links:
+    Slides: /assets/Inverse_Optimization_INFORMS-2019.pdf
+- title: Advances in Inverse Planning Algorithm and Strategy
+  authors: Masoud Zarepisheh, B Ungun, R Li, Y Ye, S Boyd, L Xing
+  venue: Advanced and Emerging Technologies in Radiation Oncology Physics (CRC Press), book chapter
+  year: 2018
+  url: https://www.taylorfrancis.com/chapters/edit/10.1201/9780429508141-6/advances-inverse-planning-algorithm-strategy-masoud-zarepisheh-baris-ungun-ruijiang-li-yinyu-ye-stephen-boyd-lei-xing
+- title: A computation study on an integrated alternating direction method of multipliers for large scale optimization
+  authors: Masoud Zarepisheh, L Xing, Y Ye
+  venue: Optimization Letters
+  year: 2018
+  url: https://link.springer.com/article/10.1007/s11590-017-1116-y
+  links:
+    Slides: /assets/ADMM-BB_AAPM2015.pdf
+- title: An equivalent transformation of multi-objective optimization problems
+  authors: Masoud Zarepisheh, P M Pardalos
+  venue: Annals of Operations Research
+  year: 2017
+  url: https://link.springer.com/article/10.1007/s10479-014-1782-4
+- title: An Automated Treatment Plan Quality Control Tool for Intensity-Modulated Radiation Therapy Using a Voxel-Weighting Factor-Based Re-Optimization Algorithm
+  authors: T Song, N Li, M Zarepisheh, Y Li, Q Gautier, L Zhou, L Mell, S Jiang, L Cerviño
+  venue: PLOS ONE
+  year: 2016
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149273
+- title: SCORE System for Online Adaptive Radiotherapy
+  authors: Z Tian, Q Gautier, X Gu, C Men, F Peng, M Zarepisheh, Y Graves, A Uribe, X Jia, S B Jiang
+  venue: GPU-Based High Performance Computing in Radiation Therapy (CRC Press), book chapter
+  year: 2016
+  url: https://www.taylorfrancis.com/chapters/edit/10.1201/b18968-26/score-system-online-adaptive-radiotherapy-zhen-tian-quentin-gautier-xuejun-gu-chunhua-men-fei-peng-masoud-zarepisheh-yan-jiang-graves-andres-uribe-sanchez-xun-jia-steve-jiang
+- title: Dosimetric benefit of adaptive re-planning in pancreatic cancer stereotactic body radiotherapy
+  authors: Y Li, J Hoisak, N Li, C Jiang, Z Tian, Q Gautier, M Zarepisheh, Z Wu, Y Liu, X Jia, J Hattangadi-Gluth, L K Mell, S Jiang, J D Murphy
+  venue: Medical Dosimetry
+  year: 2015
+  url: https://www.sciencedirect.com/science/article/pii/S0958394715000357
+- title: Simultaneous beam sampling and aperture shape optimization for station parameter optimized radiation therapy (SPORT)
+  authors: Masoud Zarepisheh, R Li, Y Ye, L Xing
+  venue: Medical Physics
+  year: 2015
+  url: https://doi.org/10.1118/1.4906253
+  links:
+    Slides: /assets/ASTRO-2014-SPORT.pdf
+- title: A DVH-guided IMRT optimization algorithm for automatic treatment planning and adaptive radiotherapy replanning
+  authors: Masoud Zarepisheh, T Long, N Li, Z Tian, HE Romeijn, X Jia, SB Jiang
+  venue: Medical Physics
+  year: 2014
+  url: https://doi.org/10.1118/1.4875700
+- title: A multicriteria framework with voxel-dependent parameters for radiotherapy treatment plan optimization
+  authors: Masoud Zarepisheh, AF Uribe-Sanchez, N Li, X Jia, SB Jiang
+  venue: Medical Physics
+  year: 2014
+  url: https://aapm.onlinelibrary.wiley.com/doi/full/10.1118/1.4866886
+  links:
+    Slides: /assets/Masoud_AAPM2013_AutomatedPlanning_VoxelAdjustment.pdf
+- title: The nearest MPSS pattern in data envelopment analysis
+  authors: A Davoodi, Masoud Zarepisheh, HZ Rezai
+  venue: Annals of Operations Research
+  year: 2014
+  url: https://link.springer.com/article/10.1007/s10479-014-1670-y
+- title: Automatic treatment plan re-optimization for adaptive radiotherapy guided with the initial plan DVHs
+  authors: N Li, M Zarepisheh, A Uribe, K Moore, Z Tian, X Zhen, Y Graves, Q Gautier, L Mell, L Zhou
+  venue: Physics in Medicine & Biology
+  year: 2013
+  url: https://iopscience.iop.org/article/10.1088/0031-9155/58/24/8725
+- title: A moment-based approach for DVH-guided radiotherapy treatment plan optimization
+  authors: M Zarepisheh, M Shakourifar, G Trigila, P S Ghomi, S Couzens, A Abebe, L Noreña, W Shang, S Jiang, Y Zinchenko
+  venue: Physics in Medicine & Biology
+  year: 2013
+  url: https://iopscience.iop.org/article/10.1088/0031-9155/58/6/1869
+- title: A linear bi-level programming problem for obtaining the closest targets and minimum distance of a unit from the strong efficient frontier
+  authors: GR Jahanshahloo, J Vakili, Masoud Zarepisheh
+  venue: Asia-Pacific Journal of Operational Research
+  year: 2012
+  url: https://www.worldscientific.com/doi/abs/10.1142/S021759591250011X
+- title: Generating properly efficient points in multi-objective programs by the nonlinear weighted sum scalarization method
+  authors: Masoud Zarepisheh, E Khorram, P M Pardalos
+  venue: Optimization
+  year: 2012
+  url: https://www.tandfonline.com/doi/abs/10.1080/02331934.2012.671819
+- title: On the transformation of lexicographic nonlinear multiobjective programs to single objective programs
+  authors: Masoud Zarepisheh, E Khorram
+  venue: Mathematical Methods of Operations Research
+  year: 2011
+  url: https://link.springer.com/article/10.1007/s00186-011-0360-7
+- title: Sensitivity analysis on the priority of the objective functions in lexicographic multiple objective linear programs
+  authors: E Khorram, M Zarepisheh, BA Ghaznavi-ghosoni
+  venue: European Journal of Operational Research
+  year: 2010
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221710003723
+- title: Returns to scale in multiplicative models in data envelopment analysis
+  authors: Masoud Zarepisheh, E Khorram, GR Jahanshahloo
+  venue: Annals of Operations Research
+  year: 2010
+  url: https://link.springer.com/article/10.1007/s10479-009-0537-0
+- title: 'Preemptive priority based algorithms for fuzzy minimal cost flow problem: An application in hazardous materials transportation'
+  authors: M Ghatee, S Mehdi Hashemi, M Zarepisheh, E Khorram
+  venue: Computers & Industrial Engineering
+  year: 2009
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0360835208003240
+- title: Linear transformations to decrease computational requirements of solving some known linear programming models
+  authors: M Zarepisheh, M Soleimani-damaneh
+  venue: Annals of Operations Research
+  year: 2009
+  url: https://link.springer.com/article/10.1007/s10479-008-0473-4
+- title: A dual simplex-based method for determination of the right and left returns to scale in DEA
+  authors: M Zarepisheh, M Soleimani-damaneh
+  venue: European Journal of Operational Research
+  year: 2009
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221707011514
+- title: 'Shannon’s entropy for combining the efficiency results of different DEA models: method and application'
+  authors: M Soleimani-damaneh, M Zarepisheh
+  venue: Expert Systems with Applications
+  year: 2009
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0957417408003175
+- title: Global variation of outputs with respect to the variation of inputs in performance analysis; generalized RTS
+  authors: M Zarepisheh, M Soleimani-damaneh
+  venue: European Journal of Operational Research
+  year: 2008
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221707000896
+- title: A dual-based algorithm for solving lexicographic multiple objective programs
+  authors: L Pourkarimi, M Zarepisheh
+  venue: European Journal of Operational Research
+  year: 2007
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221705008994
+- title: Determination of returns to scale by CCR formulation without chasing down alternative optimal solutions
+  authors: M Zarepisheh, M Soleimani-damaneh, L Pourkarimi
+  venue: Applied Mathematics Letters
+  year: 2006
+  url: https://www.sciencedirect.com/science/article/pii/S0893965905003721
+- title: Modified MAJ model for ranking decision making units in data envelopment analysis
+  authors: GR Jahanshahloo, L Pourkarimi, M Zarepisheh
+  venue: Applied Mathematics and Computation
+  year: 2006
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0096300305005321
