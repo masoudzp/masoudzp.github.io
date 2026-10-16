@@ -1,6 +1,15 @@
 # Publications, newest first. Each entry:
 #   title, authors, venue, year, url (main link), links (optional: arXiv/Code/Slides/Video/...),
 #   selected: true  + tag: "..."  -> also shown under "Selected publications" on the home page.
+- title: 'Warm-IP: A Path-Following ADMM Warm Start for Interior-Point Quadratic Programming'
+  authors: Babak Aslani, Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
+  venue: arXiv preprint
+  year: 2026
+  url: https://arxiv.org/abs/2610.13805
+  links:
+    Code: https://github.com/Radiotherapy-Optimization/Warm-IP
+  selected: true
+  tag: ADMM warm start · interior-point method · large-scale QP
 - title: Sparse plus low-rank matrix embedding with applications in cancer radiotherapy optimization
   authors: Mojtaba Tefagh, Gourav Jhanwar, Masoud Zarepisheh
   venue: arXiv preprint
