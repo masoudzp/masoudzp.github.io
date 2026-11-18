@@ -10,7 +10,7 @@ description: Current and former members of Masoud Zarepisheh's group at Memorial
 
 - [Gourav Jhanwar](https://www.linkedin.com/in/gourav-jhanwar/), Senior Data Scientist (2019–present)
 - [Muhammad Sohaib](https://sohaibcs1.github.io/), Postdoc (2026–present)
-- Shambhavi Singh, Postdoc (2026–present)
+- [Shambhavi Singh](https://sites.google.com/view/shambhavimath), Postdoc (2026–present)
 - [Nima Kelidari](https://kelidari.com/), Intern (2026–present)
 
 ## Alumni
